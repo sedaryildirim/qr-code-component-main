@@ -1,0 +1,76 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  /*Add colors via attributes - as below*/
+  --primary-color-slate-blue:hsl(218, 44%, 22%);
+
+  --secondary-color-white: hsl(0, 0%, 100%);
+  --secondary-color-slate-white: hsl(212, 45%, 89%);
+  --secondary-color-slate-blue: hsl(216, 15%, 48%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: 'Outfit', sans-serif;   
+  --title-font: 'Outfit', sans-serif;
+
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --body-font-size: 1rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-bold: 700;
+}
+
+/* Body  */
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--body-font);
+  justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  background-color: var(--secondary-color-slate-white);
+  }
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px hsl(220, 15%, 55%);
+  padding: 4%;
+  top: 25%;
+  text-align: center;
+  width: 375px;
+}
+
+img {
+  border-radius: 15px;
+  height: 375px;
+  width: 375px;
+}
+
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 15px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; padding: 20px;}
+.attribution a { color: hsl(228, 45%, 44%); }
