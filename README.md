@@ -1,4 +1,32 @@
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <img src="imgs/200w.gif" alt="Logo">
+  </a>
+  <br />
+  <br />
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![MIT License][license-shield]][license-url]
+
+<h3 align="center">Junior Developer Resources</h3>
+
+  <p align="center">
+    a small list of resources i've curated while self learning to code which may help others
+    <br />
+    Site template is a fork from  <a href="https://github.com/sssain/simple-portfolio">Simple Portfolio</a>. For self-educational purposes only and not complete!
+    <br />
+    <br />
+    <a href="https://sedaryildirim.github.io/junior-developer-resources/">View Site</a>
+    ·
+    <a href="https://github.com/sedaryildirim/junior-developer-resources/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/sedaryildirim/junior-developer-resources/issues">Request Feature</a>
+  </p>
+</div>
 
 
 # Frontend Mentor - QR code component solution
