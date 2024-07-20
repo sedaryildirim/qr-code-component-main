@@ -12,12 +12,10 @@
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
 
-<h3 align="center">Junior Developer Resources</h3>
+<h3 align="center">Frontend Mentor - QR code component solution</h3>
 
   <p align="center">
-    a small list of resources i've curated while self learning to code which may help others
-    <br />
-    Site template is a fork from  <a href="https://github.com/sssain/simple-portfolio">Simple Portfolio</a>. For self-educational purposes only and not complete!
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).     <br />
     <br />
     <br />
     <a href="https://sedaryildirim.github.io/qr-code-component-main/">View Site</a>
@@ -28,10 +26,6 @@
   </p>
 </div>
 
-
-# Frontend Mentor - QR code component solution
-
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
 
 ## Table of contents
 
