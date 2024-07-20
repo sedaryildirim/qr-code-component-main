@@ -14,8 +14,10 @@
 
 <h3 align="center">Frontend Mentor - QR code component solution</h3>
 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).   
   <p align="center">
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).     <br />
+   
+<br />
     <br />
     <br />
     <a href="https://sedaryildirim.github.io/qr-code-component-main/">View Site</a>
