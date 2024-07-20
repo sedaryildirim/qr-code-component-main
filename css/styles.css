@@ -1,76 +1,85 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  /*Add colors via attributes - as below*/
-  --primary-color-slate-blue:hsl(218, 44%, 22%);
+  /* Colors */
+  --color-slate-blue: hsl(218, 44%, 22%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
 
-  --secondary-color-white: hsl(0, 0%, 100%);
-  --secondary-color-slate-white: hsl(212, 45%, 89%);
-  --secondary-color-slate-blue: hsl(216, 15%, 48%);
+  /* Typography */
+  --font-family: 'Outfit', sans-serif;
+  --font-size-small: 0.6875rem;  /* 11px */
+  --font-size-body: 0.9375rem;   /* 15px */
+  --font-size-title: 1.375rem;   /* 22px */
 
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Outfit', sans-serif;   
-  --title-font: 'Outfit', sans-serif;
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
 
-  --h1-font-size: 2rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
-  --body-font-size: 1rem;
-
-  /*========== Font weight ==========*/
-  --font-regular: 400;
-  --font-bold: 700;
+  /* Other */
+  --border-radius: 15px;
+  --box-shadow: 0 10px 20px hsla(220, 15%, 55%, 0.2);
 }
 
-/* Body  */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Body */
 body {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  font-family: var(--body-font);
   justify-content: center;
-  height: 100%;
+  align-items: center;
   min-height: 100vh;
-  overflow: hidden;
-  width: 100%;
-  background-color: var(--secondary-color-slate-white);
-  }
+  font-family: var(--font-family);
+  background-color: var(--color-light-gray);
+}
 
 .card {
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 10px 40px hsl(220, 15%, 55%);
-  padding: 4%;
-  top: 25%;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 1rem;
   text-align: center;
-  width: 375px;
+  max-width: 320px;
+  margin: 1rem;
 }
 
-img {
-  border-radius: 15px;
-  height: 375px;
-  width: 375px;
+.card img {
+  border-radius: calc(var(--border-radius) - 5px);
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
 }
 
-
-h1 {
-  color: hsl(218, 44%, 22%);
-  font-weight: 700;
+.card h1 {
+  color: var(--color-slate-blue);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-title);
+  margin-bottom: 1rem;
 }
 
-p {
-  color: hsl(220, 15%, 55%);
-  font-size: 15px;
-  font-weight: 400;
-  padding: 15px;
+.card p {
+  color: var(--color-grayish-blue);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  margin-bottom: 1.5rem;
 }
 
+.attribution {
+  font-size: var(--font-size-small);
+  text-align: center;
+  padding: 1rem;
+  color: var(--color-grayish-blue);
+}
 
-.attribution { font-size: 11px; text-align: center; padding: 20px;}
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+  color: var(--color-slate-blue);
+}
