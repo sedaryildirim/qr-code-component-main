@@ -20,11 +20,11 @@
     Site template is a fork from  <a href="https://github.com/sssain/simple-portfolio">Simple Portfolio</a>. For self-educational purposes only and not complete!
     <br />
     <br />
-    <a href="https://sedaryildirim.github.io/junior-developer-resources/">View Site</a>
+    <a href="https://sedaryildirim.github.io/qr-code-component-main/">View Site</a>
     ·
-    <a href="https://github.com/sedaryildirim/junior-developer-resources/issues">Report Bug</a>
+    <a href="https://github.com/sedaryildirim/qr-code-component-main/issues">Report Bug</a>
     ·
-    <a href="https://github.com/sedaryildirim/junior-developer-resources/issues">Request Feature</a>
+    <a href="https://github.com/sedaryildirim/qr-code-component-main/issues">Request Feature</a>
   </p>
 </div>
 
@@ -126,7 +126,7 @@ This is where you can give a hat tip to anyone who helped you out on this projec
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/sedaryildirim/junior-developer-resources.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/sedaryildirim/qr-code-component-main.svg?style=for-the-badge
 [contributors-url]: https://github.com/sedaryildirim/qr-code-component-main/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/sedaryildirim/qr-code-component-main.svg?style=for-the-badge
 [forks-url]: https://github.com/sedaryildirim/qr-code-component-main/network/members
