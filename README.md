@@ -95,3 +95,15 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/sedaryildirim/junior-developer-resources.svg?style=for-the-badge
+[contributors-url]: https://github.com/sedaryildirim/qr-code-component-main/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/sedaryildirim/qr-code-component-main.svg?style=for-the-badge
+[forks-url]: https://github.com/sedaryildirim/qr-code-component-main/network/members
+[stars-shield]: https://img.shields.io/github/stars/sedaryildirim/qr-code-component-main.svg?style=for-the-badge
+[stars-url]: https://github.com/sedaryildirim/qr-code-component-main/stargazers
+[license-shield]: https://img.shields.io/github/license/sedaryildirim/qr-code-component-main.svg?style=for-the-badge
+[license-url]: https://github.com/sedaryildirim/qr-code-component-main/blob/main/LICENSE.txt
+[product-screenshot]: imgs/screenshot.png
