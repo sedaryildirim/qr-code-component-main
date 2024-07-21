@@ -50,11 +50,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 <div align="center">
 
 ![Mobile](/imgs/mobile.png)
-
-<br />
-
 ![Desktop](/imgs/desktop.png)
 </div>
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
